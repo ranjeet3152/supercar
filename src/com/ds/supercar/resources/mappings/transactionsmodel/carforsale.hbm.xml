@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.ds.supercar.model.transaction.CarForSaleRecord" table="supercarforsale" schema="supercar">
+        <id name="carid">
+            <generator class="foreign">
+                <param name="property">car</param>
+            </generator>
+        </id>
+        <property name="branchlocation"/>
+        <property name="speedoreading"/>
+        <property name="branchlocation"/>
+        <property name="dateofadded"/>
+        <property name="sellingprice"/>
+        <one-to-one name="car" class="com.ds.supercar.model.vehicle.Car"></one-to-one>
+
+    </class>
+
+</hibernate-mapping>

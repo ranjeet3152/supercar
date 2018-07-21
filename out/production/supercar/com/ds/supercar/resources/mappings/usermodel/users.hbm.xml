@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="com.ds.supercar.model.usermodel.User" table="supercaruser">
+    <id name="userid">
+        <generator class="increment" />
+    </id>
+    <property name="username"/>
+    <property name="password"/>
+    <property name="dob"/>
+    <property name="gender"/>
+    <set name="addresses" cascade="all">
+        <key column="userid" />
+        <one-to-many class="com.ds.supercar.model.usermodel.Address"/>
+    </set>
+
+</class>
+
+</hibernate-mapping>

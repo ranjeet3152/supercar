@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.ds.supercar.model.vehicle.FuelReading" table="supercarfuelreading" schema="supercar">
+        <id name="fuelreadingid">
+            <generator class="increment"/>
+        </id>
+        <property name="readingdate"/>
+        <property name="readingtime"/>
+        <property name="version"/>
+        <property name="reading"/>
+        <many-to-one name="car" class="com.ds.supercar.model.vehicle.Car">
+            <column name="carid"/>
+        </many-to-one>
+
+    </class>
+
+</hibernate-mapping>

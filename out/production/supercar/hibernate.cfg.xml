@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <property name = "hibernate.dialect">
+            org.hibernate.dialect.MySQLDialect
+        </property>
+        
+        <property name="hbm2ddl.auto0">create</property>
+        
+        <property name="show_sql">true</property>
+
+        <property name = "hibernate.connection.driver_class">
+            com.mysql.jdbc.Driver
+        </property>
+ 
+        <property name = "hibernate.connection.url">
+            jdbc:mysql://localhost/supercar
+        </property>
+
+        <property name = "hibernate.connection.username">
+            root
+        </property>
+
+        <property name = "hibernate.connection.password">
+            root
+        </property>
+
+        <!-- List of XML mapping files -->
+        <mapping resource="com/ds/supercar/resources/mappings/usermodel/address.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/usermodel/users.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/usermodel/employee.hbm.xml"/>
+
+        <mapping resource="com/ds/supercar/resources/mappings/transactionsmodel/bookrecord.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/transactionsmodel/carforsale.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/transactionsmodel/carselling.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/transactionsmodel/timesheet.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/transactionsmodel/confirmation.hbm.xml"/>
+
+        <mapping resource="com/ds/supercar/resources/mappings/payment/coupon.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/payment/demanddraft.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/payment/drivercharges.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/payment/insurance.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/payment/insurancetype.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/payment/payment.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/payment/paymenttype.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/payment/vehiclecharges.hbm.xml"/>
+
+        <mapping resource="com/ds/supercar/resources/mappings/places/branch.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/places/location.hbm.xml"/>
+
+        <mapping resource="com/ds/supercar/resources/mappings/vehicle/car.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/vehicle/cartype.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/vehicle/fuelreading.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/vehicle/fueltype.hbm.xml"/>
+        <mapping resource="com/ds/supercar/resources/mappings/vehicle/speedometerreading.hbm.xml"/>
+
+    </session-factory>
+</hibernate-configuration>

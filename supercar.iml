@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>jar://$MODULE_DIR$/../spring-framework-3.2.0.RELEASE-dist.zip!/</file>
+          <file>file://$MODULE_DIR$/src/bean.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../spring jars">
+      <excludeFolder url="file://$MODULE_DIR$/../spring jars" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES />
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../spring jars/docs/javadoc-api" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES />
+        <JAVADOC>
+          <root url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/docs/javadoc-api" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../hibernate jars" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../hibernate jars/doc/api" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../hibernate jars/doc/reference/tutorial/src" />
+          <root url="file://$MODULE_DIR$/../hibernate jars/eg" />
+          <root url="file://$MODULE_DIR$/../hibernate jars/src" />
+          <root url="file://$MODULE_DIR$/../hibernate jars/test" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../hibernate jars" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <ANNOTATIONS>
+          <root url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/schema" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/schema" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/schema" />
+        </JAVADOC>
+        <NATIVE>
+          <root url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/schema" />
+        </NATIVE>
+        <SOURCES>
+          <root url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/schema" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/schema" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/schema" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/mysql-connector.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="spring-2.0.6-sources" level="project" />
+  </component>
+</module>
