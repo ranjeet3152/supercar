@@ -1,11 +1,16 @@
 <component name="libraryTable">
   <library name="spring-2.0.6-sources">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../apache-tomcat-8.5.32/bin" />
+      <root url="jar://$PROJECT_DIR$/../javax.servlet-3.0.jar!/" />
+    </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../spring-framework-3.2.0.RELEASE-dist.zip!/spring-framework-3.2.0.RELEASE/docs/javadoc-api" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../spring-2.0.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../dom4j-1.6.1-hudson-1-sources.jar!/" />
     </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../apache-tomcat-8.5.32/bin" recursive="false" />
   </library>
 </component>

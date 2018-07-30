@@ -10,7 +10,6 @@ public class Coupons {
     private Date valid_upto;
 
     public Coupons(){
-
     }
 
     public Coupons(int couponid, double min_amount, double max_amount, double discount_amount, Date valid_upto) {

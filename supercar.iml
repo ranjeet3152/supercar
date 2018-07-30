@@ -14,7 +14,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="hibernate.cfg.xml" value="d10a4271-72e1-4ec6-8d03-3c8c4b50b993" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
@@ -25,6 +25,60 @@
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>jar://$MODULE_DIR$/../spring-framework-3.2.0.RELEASE-dist.zip!/</file>
           <file>file://$MODULE_DIR$/src/bean.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
+          <file>jar://$MODULE_DIR$/../spring-2.0.6-sources.jar!/</file>
+        </fileset>
+        <fileset id="fileset3" name="Spring Application Context (3)" removed="false">
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-context-support-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-context-support-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-struts-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-aspects-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-instrument-tomcat-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-core-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-jms-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-instrument-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-struts-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-struts-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-jms-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-beans-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-test-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-tx-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-instrument-tomcat-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-instrument-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-oxm-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-test-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-beans-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-aop-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-orm-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-instrument-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-tx-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-instrument-tomcat-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-orm-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-jdbc-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-context-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-jms-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-aop-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-context-support-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-orm-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-web-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-beans-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-jdbc-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-context-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-aspects-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-expression-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-expression-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-core-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-core-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-aspects-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-test-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-tx-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-expression-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-jdbc-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-aop-3.2.0.RELEASE.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-context-3.2.0.RELEASE-javadoc.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-oxm-3.2.0.RELEASE-sources.jar!/</file>
+          <file>jar://$USER_HOME$/Desktop/spring-framework-3.2.0.RELEASE/libs/spring-oxm-3.2.0.RELEASE-javadoc.jar!/</file>
         </fileset>
       </configuration>
     </facet>

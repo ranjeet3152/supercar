@@ -14,7 +14,6 @@ public class DriverCharges {
     private double wait_c_p_min; //waiting_extra_charge_per_minute
 
     public DriverCharges(){
-
     }
 
     public DriverCharges(int driverchardeid, CarType carType, double h_c_p_day, double h_c_p_night, double c_p_day, double c_p_night, double c_p_week, double c_p_month, double wait_c_p_min) {
